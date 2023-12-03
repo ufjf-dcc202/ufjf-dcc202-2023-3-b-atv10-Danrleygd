@@ -15,9 +15,11 @@ function getJoao() {
 function getMaria() {
   return maria;
 }
-function setMatia(m) {
+function setMaria(m) {
   maria = m;
 }
 function setJoao(m) {
   joao = m;
 }
+
+export {deJoaoParaMaria, deMariaParaJoao, getJoao, getMaria, setJoao, setMaria};
